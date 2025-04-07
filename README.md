@@ -28,7 +28,7 @@ A powerful desktop application in Java for scraping, storing, analyzing, and pre
 
 ### 🧩 Main Window Overview
 <p align="center">
-  <img src="src/main/resources/screenshot(1)" alt="Main Window" width="700">
+  <img src="src/main/resources/screenshot(1).jpg" alt="Main Window" width="700">
 </p>
 <p align="center"><em>Central dashboard with navigation and key actions</em></p>
 
