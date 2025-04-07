@@ -28,31 +28,31 @@ A powerful desktop application in Java for scraping, storing, analyzing, and pre
 
 ### 🧩 Main Window Overview
 <p align="center">
-  <img src="screenshots/main_window.png" alt="Main Window" width="700">
+  <img src="src/main/resources/screenshot(1)" alt="Main Window" width="700">
 </p>
 <p align="center"><em>Central dashboard with navigation and key actions</em></p>
 
 ### 🔎 Filter and Display Job Ads
 <p align="center">
-  <img src="screenshots/filter_jobs.png" alt="Filter Jobs" width="700">
+  <img src="src/main/resources/screenshot(8).jpg" alt="Filter Jobs" width="700">
 </p>
 <p align="center"><em>Search jobs using advanced filters</em></p>
 
 ### 📈 Charts & Analytics (JFreeChart)
 <p align="center">
-  <img src="screenshots/charts.png" alt="Chart View" width="700">
+  <img src="src/main/resources/screenshot(7).jpg" alt="Chart View" width="700">
 </p>
 <p align="center"><em>Visual representation of data (contract type, location, job domain, etc.)</em></p>
 
 ### 🧠 Machine Learning - Predict Education Level
 <p align="center">
-  <img src="screenshots/prediction.png" alt="Prediction with Weka" width="700">
+  <img src="src/main/resources/screenshot(6).jpg" alt="Prediction with Weka" width="700">
 </p>
 <p align="center"><em>Use Weka model to predict required education for a job ad</em></p>
 
 ### 🧬 Clustering Job Ads
 <p align="center">
-  <img src="screenshots/clustering.png" alt="Clustering" width="700">
+  <img src="src/main/resources/screenshot(4).jpg" alt="Clustering" width="700">
 </p>
 <p align="center"><em>Apply clustering algorithm to group similar job offers</em></p>
 
