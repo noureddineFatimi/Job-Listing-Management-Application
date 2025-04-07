@@ -1,24 +1,76 @@
-# 📢 Job Advertisement Prediction System
-A Java-based web application that predicts job advertisement success using Machine Learning with Weka and Java EE (Jakarta EE).
+# 📊 Java Job Scraper & Analyzer
 
-# 📌 Description
-This project is a job advertisement prediction system that leverages Machine Learning (Weka) to analyze job postings and predict their success based on historical data.
+A powerful desktop application in Java for scraping, storing, analyzing, and predicting job advertisement data. The application allows users to search job listings based on various filters, visualize trends using charts (JFreeChart), and predict required education levels using machine learning (Weka). All data is stored and queried through a MySQL database.
 
-✅ Built with Java EE (Jakarta EE) and Javax for web development
-✅ Uses Weka for data preprocessing, training, and prediction
-✅ Allows companies to post job ads and predict their effectiveness
-✅ Supports RESTful APIs for job data retrieval and prediction
+## ✨ Features
 
-# 🛠️ Technologies Used
-Java 11+
-Jakarta EE (Java EE with Javax API)
-Weka (Machine Learning Library)
-MySQL / PostgreSQL (for job ad storage)
-Tomcat / WildFly (for deployment)
-Hibernate / JPA (for database ORM)
-Maven (for dependency management)
+- 🔍 **Job Scraping**: Automatically scrape job listings from online sources
+- 🗂️ **Filter & Search**: Filter job ads by title, location, contract type, experience, or keyword
+- 📊 **Data Visualization**: Interactive charts for analyzing job distribution by domain, city, contract type, etc.
+- 🔎 **Clustering**: Use clustering algorithms to group similar job ads
+- 🎯 **ML Predictions**: Predict the expected education level for a given job using Weka models
+- 💾 **Database Integration**: Save and retrieve job data via MySQL
+- 🖥️ **User Interface**: Easy-to-use Swing GUI
 
-# 🎯 Future Improvements
-✅ Improve model accuracy with more training data
-✅ Add user authentication & role-based access
-✅ Deploy on cloud (AWS, Azure, GCP)
+## 🛠️ Tech Stack
+
+- **Language**: Java 8+
+- **GUI**: Java Swing
+- **Charts**: JFreeChart
+- **Database**: MySQL 8.0
+- **Machine Learning**: Weka
+- **Scraping**: Jsoup
+- **Build Tool**: Maven
+
+---
+
+## 🖼️ Screenshots
+
+### 🧩 Main Window Overview
+<p align="center">
+  <img src="screenshots/main_window.png" alt="Main Window" width="700">
+</p>
+<p align="center"><em>Central dashboard with navigation and key actions</em></p>
+
+### 🔎 Filter and Display Job Ads
+<p align="center">
+  <img src="screenshots/filter_jobs.png" alt="Filter Jobs" width="700">
+</p>
+<p align="center"><em>Search jobs using advanced filters</em></p>
+
+### 📈 Charts & Analytics (JFreeChart)
+<p align="center">
+  <img src="screenshots/charts.png" alt="Chart View" width="700">
+</p>
+<p align="center"><em>Visual representation of data (contract type, location, job domain, etc.)</em></p>
+
+### 🧠 Machine Learning - Predict Education Level
+<p align="center">
+  <img src="screenshots/prediction.png" alt="Prediction with Weka" width="700">
+</p>
+<p align="center"><em>Use Weka model to predict required education for a job ad</em></p>
+
+### 🧬 Clustering Job Ads
+<p align="center">
+  <img src="screenshots/clustering.png" alt="Clustering" width="700">
+</p>
+<p align="center"><em>Apply clustering algorithm to group similar job offers</em></p>
+
+## 📹 Video Demonstrations
+### <a href="https://drive.google.com/file/d/1jk1mb2khbwcDi4qRyl7ZO2jK_2wFHNQm/view?usp=drive_link">Demo</a>
+---
+
+## 🗄️ MySQL Database Setup
+
+### Create the Database
+```sql
+CREATE DATABASE job_ads_db;
+USE job_ads_db;
+```
+
+## 🤖 Machine Learning (Weka Integration)
+
+### Use .arff files generated from job ads
+### Train a model using Weka Explorer
+### Load the model into the app for predictions
+
