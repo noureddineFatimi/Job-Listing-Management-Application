@@ -56,10 +56,6 @@ A powerful desktop application in Java for scraping, storing, analyzing, and pre
 </p>
 <p align="center"><em>Apply clustering algorithm to group similar job offers</em></p>
 
-## 📹 Video Demonstrations
-### <a href="https://drive.google.com/file/d/1jk1mb2khbwcDi4qRyl7ZO2jK_2wFHNQm/view?usp=drive_link">Demo</a>
----
-
 ## 🗄️ MySQL Database Setup
 
 ### Create the Database
